@@ -1,0 +1,320 @@
+{
+    "name": "Player Controls",
+    "maps": [
+        {
+            "name": "Ship Controls",
+            "id": "cb24b307-2807-42be-b4a4-2bdc9a941a8f",
+            "actions": [
+                {
+                    "name": "Thrust",
+                    "type": "PassThrough",
+                    "id": "892d3342-5e64-46ae-abe0-a2dc31800913",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Strafe",
+                    "type": "Button",
+                    "id": "c133593e-93c8-4002-b324-b24905775ec0",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Yaw",
+                    "type": "PassThrough",
+                    "id": "8d11390e-98b2-494f-9647-cb88eb11a3af",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Boost",
+                    "type": "PassThrough",
+                    "id": "c1852a04-6700-460d-89df-0ff54dcb2d2b",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Fire All",
+                    "type": "PassThrough",
+                    "id": "848d0d6b-a62a-4be1-a66b-c359bde85335",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Fire 1",
+                    "type": "PassThrough",
+                    "id": "2b019f0d-70fb-49eb-9d33-675f84d59dd2",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Fire 2",
+                    "type": "PassThrough",
+                    "id": "fae3190e-d656-4868-8d9d-9523f066b163",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Fire 3",
+                    "type": "PassThrough",
+                    "id": "fbf27b14-b9bb-4db7-8c39-90ecad2275aa",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Fire 4",
+                    "type": "PassThrough",
+                    "id": "ff58d295-b304-439c-8e36-91d49bc5aa19",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Missile",
+                    "type": "PassThrough",
+                    "id": "0052fb0c-8781-440b-a649-a9e779bd410d",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Aim",
+                    "type": "Value",
+                    "id": "aff16999-e949-4325-97c1-c6e1800f1390",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "RightMouse",
+                    "type": "PassThrough",
+                    "id": "4ee47201-891e-4e70-8ae9-7465a38de64d",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "Thrust",
+                    "id": "a4e16652-5474-4dce-b81f-7737283de10d",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Thrust",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "positive",
+                    "id": "e44fb6e3-de93-4992-be0a-fe2c598291e7",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Thrust",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "negative",
+                    "id": "fd30b756-2aa2-4635-857e-d1db8d946bd5",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Thrust",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "Strafe",
+                    "id": "5fa9b6d6-e8ed-4a05-a9cd-98c8001a09a7",
+                    "path": "1DAxis",
+                    "interactions": "Tap(duration=0.05)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Strafe",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "positive",
+                    "id": "e8706a5c-4fb0-4050-b9b9-bea35da20810",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Strafe",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "negative",
+                    "id": "f7ea3a7f-00c5-4efb-af26-dae294350bf3",
+                    "path": "<Keyboard>/q",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Strafe",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "Yaw",
+                    "id": "90e97ead-8969-4381-b892-954db92ca440",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Yaw",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "positive",
+                    "id": "b729afef-8dd3-4554-97c3-5835b1e1aa48",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Yaw",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "negative",
+                    "id": "b0db8f82-a1b8-430e-bc61-f5646941519c",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Yaw",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "afaab71a-35b4-4123-839a-14714436fc31",
+                    "path": "<Keyboard>/shift",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Boost",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7a16b77b-ae62-450c-a5e2-68bcb75753ca",
+                    "path": "<Keyboard>/space",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Fire All",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7c792e9b-c98a-4ca3-a621-8c16578431fc",
+                    "path": "<Keyboard>/1",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Fire 1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "dcbd0846-0ece-4efd-ba33-502b94acbe1c",
+                    "path": "<Keyboard>/2",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Fire 2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "62702ef2-eba8-4753-8c56-82cf89d03bb0",
+                    "path": "<Keyboard>/3",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Fire 3",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3025d713-27a1-49ca-b491-1f38636f6e23",
+                    "path": "<Mouse>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Aim",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "20984894-f965-439b-98bc-ec12a1d0fae4",
+                    "path": "<Keyboard>/4",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Fire 4",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "004caa43-812c-47fc-903f-254c818cfc07",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RightMouse",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "cd1daf89-92c0-4d52-8be1-5099c12f0d9f",
+                    "path": "<Keyboard>/tab",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Missile",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
